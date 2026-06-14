@@ -40,8 +40,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <div className="min-h-screen bg-background">
-      <header className="sticky top-0 z-40 border-b bg-background/95 backdrop-blur">
+    <div className="min-h-screen bg-page">
+      <header className="sticky top-0 z-40 border-b bg-header/85 backdrop-blur">
         <div className="mx-auto flex h-14 max-w-2xl items-center justify-between px-4">
           <div className="flex items-center gap-3">
             {/* mobile menu */}

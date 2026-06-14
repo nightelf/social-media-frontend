@@ -23,6 +23,9 @@
     --secondary: 212 96% 78%;        /* light blue #93C5FD */
     --secondary-foreground: 224 64% 33%;
 
+    --header: 214 95% 93%;           /* light blue (~#DBEAFE) — a step lighter than secondary */
+    --page: 214 100% 98%;            /* very light blue page background (cards stay white on top) */
+
     --muted: 210 40% 96%;
     --muted-foreground: 215 16% 47%;
 
@@ -59,6 +62,9 @@
 
     --secondary: 217 33% 22%;
     --secondary-foreground: 210 40% 98%;
+
+    --header: 217 40% 16%;           /* dark blue header for dark mode */
+    --page: 222 47% 8%;              /* slightly lifted dark page background */
 
     --muted: 217 33% 17%;
     --muted-foreground: 215 20% 65%;
