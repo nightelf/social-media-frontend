@@ -3,10 +3,10 @@
 Next.js 14 (App Router, TypeScript) frontend for the Social Media Demo. **One codebase, two running
 instances** — each wired to a different backend (FastAPI or Django REST Framework) via env vars. The
 same code works against either backend because both honor the shared
-[API contract](../social-media-deploy/API_CONTRACT.md).
+[API contract](https://github.com/nightelf/social-media-deploy/blob/main/API_CONTRACT.md).
 
 > For the full-stack local setup (nginx + both backends + Postgres), see the
-> **[deploy repo README](../social-media-deploy/README.md)**. This file covers the frontend alone.
+> **[deploy repo README](https://github.com/nightelf/social-media-deploy/blob/main/README.md)**. This file covers the frontend alone.
 
 ## Stack
 - Next.js 14 App Router + TypeScript
@@ -26,6 +26,7 @@ mapped in `tailwind.config.ts`.
 
 ## Run standalone (outside Docker)
 ```bash
+git clone git@github.com:nightelf/social-media-frontend.git && cd social-media-frontend
 cp .env.local.example .env.local     # point NEXT_PUBLIC_API_BASE_URL at a running backend
 npm install
 npm run dev                          # http://localhost:3000
